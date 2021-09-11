@@ -10,39 +10,38 @@ html {
 
 body {
   background-color: #ccc;
-  margin: 1.5rem;
+  margin: 0;
 }
 
 h2 {
   color: #000;
   text-align: center;
+  padding: 2rem;
 }
 
 li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem;
 }
 
 img {
   width: 5rem;
-  margin: 1.5rem;
 }
 
-h3 {
+h3 + h4 {
   color: #000;
-}
-
-h4 {
-
+  width: 16rem;
 }
 
 p {
-  color: #444;
+  width: 24rem;
 }
 
 a {
   text-decoration: none;
   background-color: #444;
-  color: #ccc;
+  color: white;
   padding: .5rem 1rem .6rem;
 }
